@@ -5,12 +5,11 @@ class Ciclos extends Component {
 
   state = {
     numero: 100,
-
   }
 
   componentDidUpdate = (prevProps, prevState) => {
     if (this.state.numero !== prevState.numero) {
-      console.log("componentDidMount", "O valor mudou!")
+      console.log("componentDidUpdate", "O valor mudou!")
     }
   }
 

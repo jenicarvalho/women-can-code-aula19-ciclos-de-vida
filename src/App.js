@@ -5,8 +5,8 @@ import DidUpdate2 from './DidUpdate2'
 
 export default function App() {
   return (
-    <DidMount />
+    // <DidMount />
     // <DidUpdate />
-    // <DidUpdate2 />
+    <DidUpdate2 />
   );
 }

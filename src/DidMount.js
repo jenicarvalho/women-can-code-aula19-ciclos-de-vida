@@ -2,7 +2,6 @@ import './App.css';
 
 import React, { Component } from 'react';
 
-
 class Ciclos extends Component {
 
   state = {
@@ -22,7 +21,7 @@ class Ciclos extends Component {
     // mostra o valor anterior
     console.log(this.state.numero)
     // seta o novo valor e atualiza o componente
-    this.setState({ numero: 3 })
+    this.setState({ numero: 5 })
   }
 
 
